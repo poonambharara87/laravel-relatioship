@@ -18,3 +18,4 @@ Route::get('/', function(){
 
 Route::get('/studendata', [HomeController::class, 'index']);
 Route::get('showData', [HomeController::class, 'showData']);
+Route::get('data', [HomeController::class, 'DataBelongsTo']);
